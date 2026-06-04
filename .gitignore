@@ -1,0 +1,51 @@
+# ============================================================
+# 錦寓機電股份有限公司 ｜一頁式官方網站 .gitignore
+# ============================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# 編輯器 / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# 日誌與暫存
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 環境變數（雖然此專案為純靜態，仍保留以防未來擴充）
+.env
+.env.local
+.env.*.local
+
+# 部署產物
+dist/
+build/
+.cache/
+
+# Node（雖然此專案無 package.json，預留）
+node_modules/
+
+# ============================================================
+# 業主原始照片備份（已整理並命名後存放至 images/ 子目錄）
+# 根目錄保留原檔僅作本機備份，不上傳 repo
+# ============================================================
+/S__*.jpg
+/S__*.jpeg
+/S__*.png
