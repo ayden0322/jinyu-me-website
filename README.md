@@ -120,7 +120,7 @@ npx serve .
 
 ## 🌐 上線前 SEO Checklist
 
-- [ ] 替換 `index.html`、`sitemap.xml`、JSON-LD 中的 `https://www.jinyu-me.com.tw/` 為實際網域
+- [x] 已將所有檔案內的網域設定為 `https://jinyu-elc.com/`（GitHub Pages 自訂網域）
 - [ ] 確認 OG 圖 `images/hero.jpg` 在社群分享顯示正常
 - [ ] 申請 Google Search Console 並提交 sitemap
 - [ ] 申請 Google Business Profile（地址：台中市東區育英路 88 號 2 樓）
