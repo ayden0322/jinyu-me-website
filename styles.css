@@ -1068,6 +1068,9 @@ h1, h2, h3, h4 { margin: 0; line-height: 1.3; color: var(--brand-navy); }
 
 /* ≤ 360 極小手機（iPhone SE 1 代、折疊機外屏） */
 @media (max-width: 360px) {
+  /* nav 英文副標兩行擠壓 nav 高度，極窄手機隱藏 */
+  .nav__brand-sub { display: none; }
+
   .hero__title {
     font-size: 26px;
     letter-spacing: 0;

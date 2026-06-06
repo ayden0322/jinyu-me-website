@@ -18,6 +18,7 @@ Desktop.ini
 # 編輯器 / IDE
 .vscode/
 .idea/
+.claude/
 *.swp
 *.swo
 *.sublime-project
